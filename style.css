@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+* {
+  color: #F9FAF8;
+}
+
+.small-gray {
+  color: #E5E7EB;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.white {
+  color: #F9FAF8;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 13em;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header, .top, .middle, .bottom, .below-bottom, .footer, .below-bottom {
+  background-color: #1F2937;
+}
+
+.huge {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.blue {
+  background-color: #3882F6;
+}
+
+.top {
+  padding: 1em 13em 2em;
+}
+button, .sign {
+  border-radius: 8px;
+  padding: 6px 2em;
+  border: 0; 
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+
+.middle, .below-bottom, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.middle-middle {
+  display: flex;
+  gap: 2em;
+}
+
+.size {
+  width: 200px;
+}
+
+.text {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.medium {
+  font-size: 36px;
+}
+
+.smaller {
+  font-size: 24px;
+}
+
+.smallerer {
+  font-size: 20px;
+}
+
+.pretty {
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 4em 17em ;
+}
+
+
+.author {
+  align-self: flex-end;
+}
+.quote {
+  padding: 3em 0;
+}
+
+.balls {
+  display: flex;
+  padding: 1em 16em;
+  border-radius: 8px;
+  gap: 10em;
+}
+
+.sign {
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  padding: 8px 2em;
+}
+
+.box {
+  align-self: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 2em 0 0;
+}
+
+.size {
+  border: 2px solid gray;
+  border-radius: 100px;
+}
+
+.power {
+max-width: 540px;
+max-height: 304px;
+align-self: center;
+}
